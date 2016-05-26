@@ -1,18 +1,3 @@
-<?php
-
-//echo $_SERVER['HTTP_HOST'];
-
-//print_r($config);
-
-//$basepath = realpath(dirname(__FILE__) . '/../..');
-$basepath = realpath(dirname(__FILE__));
-define("BASEPATH", $basepath);
-
-
-//echo BASEPATH;
-echo dirname(__FILE__);
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
