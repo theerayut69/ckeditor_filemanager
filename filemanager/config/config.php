@@ -59,7 +59,8 @@ $config = array(
 	|
 	*/
 //	'base_url' => ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] && ! in_array(strtolower($_SERVER['HTTPS']), array( 'off', 'no' ))) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'],
-	'base_url' => ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] && ! in_array(strtolower($_SERVER['HTTPS']), array( 'off', 'no' ))) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/cms',
+//	'base_url' => ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] && ! in_array(strtolower($_SERVER['HTTPS']), array( 'off', 'no' ))) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/cms',
+	'base_url' => 'http://localhost',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -69,7 +70,8 @@ $config = array(
 	| with start and final /
 	|
 	*/
-	'upload_dir' => '/source/',
+//	'upload_dir' => '/source/',
+	'upload_dir' => '/cms/source/',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -79,8 +81,8 @@ $config = array(
 	| with final /
 	|
 	*/
+//	'current_path' => '../source/',
 	'current_path' => '../source/',
-//	'current_path' => dirname(__FILE__) . '/source/',
 
 	/*
 	|--------------------------------------------------------------------------
